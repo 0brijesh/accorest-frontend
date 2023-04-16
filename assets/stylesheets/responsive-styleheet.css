@@ -1,12 +1,6 @@
-@media only screen and (min-width:0px) {
-  :root {
-    --page-container-width: 100%;
-  }
-}
-
 @media only screen and (min-width:576px) {
   :root {
-    --page-container-width: 500px;
+    --page-container-width: 95%;
   }
 }
 
@@ -41,17 +35,6 @@
 }
 
 @media only screen and (max-width:1799px) {
-  :root {
-    --font-size-heading1: 39px;
-    --font-size-heading2: 35px;
-    --font-size-heading3: 29px;
-    --font-size-heading4: 27px;
-    --font-size-heading5: 23px;
-    --font-size-heading6: 20px;
-
-    --body-font-size: 19px;
-  }
-
   .shb-header {
     padding: 20px 0;
   }
@@ -64,9 +47,19 @@
     padding: 25px 0 65px;
     margin-top: 100px;
   }
+  
+  .shb-header-logo {
+    width: 160px;
+  }
+  .btn-primary{
+    padding: 15px 24px;
+  }
+  .btn-length-200 {
+    min-width: 160px;
+  }
 }
 
-@media only screen and (max-width:1599px) {
+@media only screen and (max-width:1799px) {
   .shb-section-hero {
     background-size: 90%;
     height: 780px;
@@ -76,18 +69,8 @@
     padding: 60px 0;
   }
 
-  .shb-tabs-vertical .shb-tabs {
-    font-size: 28px;
-    padding: 40px 50px;
-  }
-
-  .shb-tabs-vertical .shb-tabs .shb-tabs-index-number {
-    font-size: 46px;
-    margin-right: 30px;
-  }
-
   .shb-section-general-statistics {
-    padding: 160px 0 60px;
+    padding: 100px 0 60px;
   }
 
   .shb-industry-service-item-card-content-wrapper {
@@ -101,20 +84,8 @@
     height: 72px;
   }
 
-  .shb-industry-service-text {
-    font-size: 19px;
-  }
-
-  .shb-section-service-card-icon {
-    margin-right: 20px;
-  }
-
   .shb-section-service-card-flex-bottom-bar {
     margin-top: 20px;
-  }
-
-  .shb-section-service-card {
-    border-radius: 20px;
   }
 
   .shb-section-developing {
@@ -158,19 +129,18 @@
   .shb-section-vision-row {
     align-items: flex-end;
   }
+  .shb-footer-header{
+    font-size: 18px;
+  }
+  footer.shb-footer{
+    padding-top: 50px;
+  }
+  .shb-footer-contact-link-text, .shb-footer-social-link-text,.shb-footer-brand-text,.shb-industry-service-text{
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width:1439px) {
-  :root {
-    --font-size-heading1: 38px;
-    --font-size-heading2: 33px;
-    --font-size-heading3: 28px;
-    --font-size-heading4: 26px;
-    --font-size-heading5: 22px;
-    --font-size-heading6: 19px;
-    --body-font-size: 18px;
-  }
-
   .shb-section-hero {
     height: 680px;
   }
@@ -207,40 +177,18 @@
 }
 
 @media only screen and (max-width:1365px) {
-  .shb-header-logo {
-    width: 250px;
-  }
 
   .shb-header-nav-list-items {
     padding: 0 30px;
   }
 
-  .shb-header-nav-link {
-    font-size: 19px;
-  }
-
-  .shb-hero-content {
-    max-width: 850px;
-  }
-
   .shb-hero-content h1 {
-    font-size: 44px;
     margin-bottom: 32px;
-  }
-
-  .shb-tabs-vertical .shb-tabs {
-    font-size: 27px;
-    padding: 32px 42px;
   }
 
   .shb-tabs-vertical .shb-tabs .shb-tabs-index-number {
     font-size: 44px;
   }
-
-  .shb-section-portfolio {
-    padding: 80px 0;
-  }
-
   .shb-section-portfolio-carousel {
     width: calc(100% - 120px);
   }
@@ -250,7 +198,7 @@
   }
 
   .shb-section-portfolio-carousel-item-market-row {
-    grid-template-columns: repeat(2, 180px);
+    grid-template-columns: repeat(2, 160px);
   }
 
   .shb-section-portfolio-carousel-item-available h3 {
@@ -266,7 +214,7 @@
   }
 
   .shb-section-general-statistics {
-    padding: 100px 0 40px;
+    padding: 70px 0 40px;
   }
 
   .shb-section-clients {
@@ -279,17 +227,6 @@
     background-color: rgb(255 255 255 / 20%);
   }
 
-  .shb-footer-brand-text,
-  .shb-footer-nav-link {
-    font-size: 15px;
-  }
-
-  .shb-footer-contact-link-icon i,
-  .shb-footer-social-link-icon i {
-    width: 16px;
-    height: 16px;
-  }
-
   .shb-industry-service-item-card-content-wrapper {
     max-width: 170px;
     width: 170px;
@@ -299,10 +236,6 @@
   .shb-industry-service-icon {
     width: 68px;
     height: 68px;
-  }
-
-  .shb-industry-service-text {
-    font-size: 17px;
   }
 
   .shb-section-service-card-grid {
@@ -326,15 +259,6 @@
     --shb-developing-padding-bottom: 100px;
   }
 
-  .shb-section-technology-tab-title {
-    font-size: 16px;
-  }
-
-  .shb-section-technology-tab-icon i {
-    width: 32px;
-    height: 32px;
-  }
-
   .shb-section-technology-avatar-clip-path {
     height: 170px;
     width: 150px;
@@ -351,6 +275,10 @@
 
   .shb-section-vision-row {
     grid-template-columns: minmax(52%, 1fr) minmax(48%, 1fr);
+  }
+
+  .shb-section-vision-row.vision-reverse {
+    grid-template-columns: minmax(48%, 1fr) minmax(52%, 1fr);
   }
 
   .shb-section-vision {
@@ -370,7 +298,7 @@
 @media only screen and (max-width:1199px) {
 
   :root {
-    --responsive-header-height: 101px;
+    --responsive-header-height: 80px;
   }
 
   .shb-header {
@@ -504,16 +432,12 @@
     order: 2;
   }
 
-  .shb-section-header-wrapper {
+  .shb-industry-content-wrap.shb-section-header-wrapper {
     order: 1;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-left: 0;
-  }
-
-  .shb-industry-content-wrap {
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
   }
 
   .shb-industry-content-wrap .shb-section-heading-data {
@@ -544,10 +468,6 @@
     height: 28px;
   }
 
-  .shb-section-technology-tab-title {
-    font-size: 15px;
-  }
-
   .shb-section-developing-process-step-button:not(:last-child)::after {
     width: 115%;
   }
@@ -575,12 +495,14 @@
   }
 
   .shb-section-vision-row,
+  .shb-section-vision-row.vision-reverse,
   .shb-section-contact-row,
   .shb-tabs-grids {
     grid-template-columns: 1fr;
   }
 
-  .shb-section-vision-row {
+  .shb-section-vision-row,
+  .shb-section-vision-row.vision-reverse {
     margin-top: 50px;
   }
 
@@ -601,6 +523,12 @@
     order: 1;
   }
 
+  .shb-section-vision-row.vision-reverse .shb-section-vision-cover {
+    padding-right: unset;
+    margin-bottom: calc((var(--shb-vision-stamp-space) / 2) + 4px);
+    order: 1;
+  }
+
   .shb-section-vision {
     --shb-vision-stamp-space: 150px;
   }
@@ -608,6 +536,11 @@
   .shb-section-vision-stamp {
     top: calc(100% - (var(--shb-vision-stamp-space) / 2));
     right: calc(((100% - 650px) / 2) + 40px);
+  }
+
+  .shb-section-vision-row.vision-reverse .shb-section-vision-stamp {
+    top: calc(100% - (var(--shb-vision-stamp-space) / 2));
+    left: calc(((100% - 650px) / 2) + 40px);
   }
 
   .shb-section-success-header {
@@ -642,7 +575,13 @@
     padding: 50px 0 150px;
   }
 
+  .shb-section-contact-content {
+    text-align: center;
+  }
+
   .shb-section-contact-content-header {
+    text-align: center;
+    align-items: center;
     max-width: 100%;
   }
 
@@ -657,24 +596,25 @@
   .shb-expandable-card-item:nth-child(n + 8) {
     display: none;
   }
+  .shb-tabs-vertical .shb-tabs{
+    font-size: 20px;
+  }
+  .shb-section-digital-solution-grid{
+    grid-gap: 20px;
+  }
+  .shb-header-logo {
+    width: 145px;
+  }
 }
 
 @media only screen and (max-width:1023px) {
-  :root {
-    --font-size-heading1: 36px;
-    --font-size-heading2: 32px;
-    --font-size-heading3: 27px;
-    --font-size-heading4: 25px;
-    --body-font-size: 17px;
-  }
-
   .shb-tabs-vertical .shb-tabs {
     text-align: left;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 22px;
-    padding: 22px 22px;
     border-radius: 30px;
+    padding: 22px 22px;
+    font-size: 22px;
   }
 
   .shb-tabs-vertical .shb-tabs .shb-tabs-index-number {
@@ -719,7 +659,6 @@
   .shb-section-developing {
     --developing-cover: 75%;
   }
-
 }
 
 @media only screen and (max-width:991px) {
@@ -727,10 +666,6 @@
   .shb-section-hero {
     background-size: 120%;
     background-position: left top;
-  }
-
-  .shb-hero-content h1 {
-    font-size: 42px;
   }
 
   .shb-section-digital-solution-grid {
@@ -752,14 +687,6 @@
 
   .shb-section-portfolio-carousel-content-wrapper {
     margin-left: 0;
-  }
-
-  .shb-industry-service-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .shb-section-technology-tabs-content-wrapper {
-    flex-wrap: wrap;
   }
 
   .shb-industry-service-list {
@@ -801,9 +728,6 @@
 
   .shb-section-technology-tab {
     min-width: calc(50% - 8px);
-  }
-
-  .shb-section-technology-tab {
     border: 1px solid var(--color-gray);
     margin-bottom: 16px;
   }
@@ -817,6 +741,7 @@
   }
 
   .shb-section-technology-tabs-content-wrapper {
+    flex-wrap: wrap;
     margin-bottom: 60px;
     margin-top: 20px;
   }
@@ -878,12 +803,10 @@
 }
 
 @media only screen and (max-width:767px) {
+
   :root {
-    --font-size-heading1: 34px;
-    --font-size-heading2: 28px;
-    --font-size-heading3: 26px;
-    --font-size-heading4: 24px;
-    --body-font-size: 16px;
+    --font-size-heading-big: 34px;
+    --font-size-heading2: 26px;
   }
 
   .shb-section-hero {
@@ -897,18 +820,12 @@
     margin-bottom: 50px;
   }
 
-  .shb-header-logo {
-    width: 200px;
-  }
-
   .btn-primary {
     font-size: 14px;
     line-height: 137.5%;
-    padding: 20px 34px;
   }
 
   .shb-hero-content h1 {
-    font-size: 34px;
     margin-bottom: 24px;
   }
 
@@ -925,15 +842,15 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 20px 14px 0;
     margin-bottom: 20px;
     overflow-x: auto;
     width: 100%;
-    padding: 20px 14px 0;
   }
 
   .shb-tabs-vertical .shb-tabs {
-    font-size: 20px;
-    padding: 22px 32px;
+    font-size: 16px;
+    padding: 20px 30px;
     border-radius: 30px 30px 0 0;
   }
 
@@ -1073,10 +990,6 @@
     height: 180px;
   }
 
-  .shb-industry-service-text {
-    font-size: 15px;
-  }
-
   .shb-industry-service-icon {
     width: 60px;
     height: 60px;
@@ -1126,12 +1039,20 @@
     margin-bottom: 12px;
   }
 
+  .shb-section-vision-rtl {
+    padding-top: 20px;
+  }
+
   .shb-section-vision {
     --shb-vision-stamp-space: 120px;
   }
 
   .shb-section-vision-stamp {
     right: calc(((100% - 468px) / 2) + 40px);
+  }
+
+  .shb-section-vision-row.vision-reverse .shb-section-vision-stamp {
+    left: calc(((100% - 468px) / 2) + 40px);
   }
 
   .shb-section-vision-creative-arrow-handler {
@@ -1178,19 +1099,20 @@
   .shb-expandable-card-item:nth-child(n + 5) {
     display: none;
   }
-
 }
 
 @media only screen and (max-width:575px) {
   :root {
     --responsive-header-height: 76px;
-    --font-size-heading1: 33px;
-    --font-size-heading2: 27px;
-    --font-size-heading3: 25px;
-    --font-size-heading4: 22px;
-    --font-size-heading5: 21px;
-    --font-size-heading6: 18px;
-    --body-font-size: 15px;
+    --font-size-heading-big: 20px;
+    --font-size-heading: 20px;
+    --font-size-heading1: 22px;
+    --font-size-heading2: 20px;
+    --font-size-heading3: 19px;
+    --font-size-heading4: 20px;
+    --font-size-heading5: 16px;
+    --font-size-heading6: 15px;
+    --body-font-size: 14px;
   }
 
   .shb-desktop-contact-btn {
@@ -1206,20 +1128,7 @@
     padding: 25px 0;
   }
 
-  .shb-general-statistics-label.text-heading-1 {
-    font-size: 28px;
-  }
-
-  .shb-general-statistics-label.text-heading-5 {
-    font-size: 18px;
-  }
-
-  .shb-section-feedback-title.text-heading-5 {
-    font-size: 18px;
-  }
-
   .shb-section-feedback-text {
-    font-size: 14px;
     line-height: 160%;
   }
 
@@ -1242,10 +1151,6 @@
     width: 130px;
     height: 150px;
     border-radius: 20px;
-  }
-
-  .shb-industry-service-text {
-    font-size: 13px;
   }
 
   .shb-section-industry {
@@ -1297,15 +1202,14 @@
   .shb-expandable-slider-wrapper {
     margin-top: 76px;
   }
+  .shb-section-service-card {
+    padding: 30px 20px;
+  }
 }
 
 @media only screen and (max-width:480px) {
   :root {
-    --responsive-header-height: 73px;
-    --font-size-heading1: 30px;
-    --font-size-heading2: 25px;
-    --font-size-heading3: 24px;
-    --font-size-heading5: 20px;
+    --responsive-header-height: 60px;
   }
 
   .shb-section-hero {
@@ -1324,16 +1228,8 @@
     margin-top: 12px;
   }
 
-  .shb-header-logo {
-    width: 177px;
-  }
-
   .shb-section-providers {
-    padding: 60px 0 0;
-  }
-
-  .shb-hero-content h1 {
-    font-size: 30px;
+    padding: 40px 0 0;
   }
 
   .shb-section-provider-cover {
@@ -1406,10 +1302,10 @@
   }
 
   .shb-industry-service-item-card-content-wrapper {
-    max-width: 95px;
-    width: 95px;
+    max-width: 110px;
+    width: 110px;
     height: 115px;
-    padding: 10px;
+    padding: 6px;
   }
 
   .shb-industry-service-icon {
@@ -1418,8 +1314,7 @@
   }
 
   .shb-industry-service-text {
-    font-size: 10px;
-    word-break: break-word;
+    font-size: 12px;
     margin-top: 10px;
   }
 
@@ -1448,9 +1343,9 @@
     border-radius: 20px;
     flex-direction: column;
     white-space: unset;
-    margin: 0;
     min-width: 100%;
     height: 100%;
+    margin: 0;
   }
 
   .shb-section-developing {
@@ -1488,6 +1383,10 @@
     right: 20px;
   }
 
+  .shb-section-vision-row.vision-reverse .shb-section-vision-stamp {
+    left: 20px;
+  }
+
   .shb-tabs-grids .shb-tabs-group {
     grid-template-columns: repeat(4, 275px);
   }
@@ -1500,19 +1399,15 @@
     margin: 0;
   }
 
-  .shb-section-header-small-title {
-    font-size: 20px;
-  }
-
   .shb-section-contact-row {
     padding: 40px 0 0;
   }
 
   .shb-section-contact-row:before {
     width: 100%;
+    height: 440px;
     border-radius: 20px;
     border: 0;
-    height: 440px;
   }
 
   .shb-section-contact-form-cover {
@@ -1531,24 +1426,13 @@
     height: 370px;
   }
 }
-
+@media (max-width: 399px){
+  .shb-industry-service-item-card-content-wrapper {
+    max-width: 100px;
+    width: 100px;
+  }
+}
 @media only screen and (max-width:350px) {
-  :root {
-    --font-size-heading1: 28px;
-    --font-size-heading2: 24px;
-    --font-size-heading3: 23px;
-    --font-size-heading4: 21px;
-    --body-font-size: 14px;
-  }
-
-  .shb-hero-content h1 {
-    font-size: var(--font-size-heading1);
-  }
-
-  .shb-header-nav-link {
-    font-size: 18px;
-  }
-
   .shb-footer-contact-link-text,
   .shb-footer-social-link-text {
     max-width: 100%;
