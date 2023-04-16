@@ -51,12 +51,6 @@
   .shb-header-logo {
     width: 160px;
   }
-  .btn-primary{
-    padding: 15px 24px;
-  }
-  .btn-length-200 {
-    min-width: 160px;
-  }
 }
 
 @media only screen and (max-width:1799px) {
@@ -304,6 +298,7 @@
   .shb-header {
     height: var(--responsive-header-height);
     max-height: var(--responsive-header-height);
+    padding: 0;
   }
 
   /* - // _START >> RESPONSIVE NAVBAR STYLES << SHB // - */
