@@ -1205,6 +1205,9 @@
   .shb-section-service-card {
     padding: 30px 20px;
   }
+  .btn-length-200 {
+    min-width: 140px;
+  }
 }
 
 @media only screen and (max-width:480px) {
