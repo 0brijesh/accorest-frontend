@@ -59,7 +59,7 @@
               <a class="shb-header-nav-link" href="services.html">Service</a>
             </li>
             <li class="shb-header-nav-list-items">
-              <a class="shb-header-nav-link" href="javascript:void(0)">Blog</a>
+              <a class="shb-header-nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <a class="btn-primary isHoverShineLight shb-mobile-contact-btn" href="javascript:void(0)">Contact Us</a>
           </ul>
@@ -68,7 +68,7 @@
 
         <!-- // _START >> HEADER CONTACT LINK << SHB //  -->
         <div class="shb-header-end">
-          <a class="btn-primary isHoverShineLight shb-desktop-contact-btn" href="javascript:void(0)">Contact Us</a>
+          <a class="btn-primary isHoverShineLight shb-desktop-contact-btn" href="javascript:void(0)" id="myModalbtn">Contact Us</a>
           <div class="shb-header-hamburger" id="triggerMenu">
             <div class="shb-hamburger-bar"></div>
             <div class="shb-hamburger-bar"></div>
@@ -810,7 +810,6 @@
             </li>
             <li class="shb-footer-nav-link-item"><a class="shb-footer-nav-link" href="services.html">Service</a>
             </li>
-            <li class="shb-footer-nav-link-item"><a class="shb-footer-nav-link" href="javascript:void()">Blog</a></li>
             <li class="shb-footer-nav-link-item"><a class="shb-footer-nav-link" href="portfolio.html">Portfolio</a></li>
           </ul>
         </div>
@@ -851,6 +850,69 @@
     </div>
   </footer>
   <!-- // _CLOSE >> FOOTER << SHB // -->
+  <!-- // _START >> MODAL << SHB // -->
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img src="./assets/images/background-covers/tcup.webp" class="auth-tcup" alt="" />
+      <div class="form-wrap">
+        <div class="">
+          <h4 class="text-center">Let's Brew Success For
+            <br/><span class="text-color-black">Your Business!</span></h4>
+            <form class="shb-section-contact-form" action="" method="">
+              <div class="form-data-wrap vertical-scroll">
+                <div class="shb-section-contact-form-column">
+                  <div class="shb-section-contact-form-form-control">
+                    <i data-icon="SHB_ICON_CN_USER" class="shb-section-contact-icon flex-center contain-image"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 1.66663C7.81667 1.66663 6.04167 3.44163 6.04167 5.62496C6.04167 7.76663 7.71667 9.49996 9.90001 9.57496C9.96667 9.56663 10.0333 9.56663 10.0833 9.57496C10.1 9.57496 10.1083 9.57496 10.125 9.57496C10.1333 9.57496 10.1333 9.57496 10.1417 9.57496C12.275 9.49996 13.95 7.76663 13.9583 5.62496C13.9583 3.44163 12.1833 1.66663 10 1.66663Z" fill="currentColor"></path>
+    <path d="M14.2333 11.7917C11.9083 10.2417 8.11666 10.2417 5.775 11.7917C4.71666 12.5 4.13333 13.4583 4.13333 14.4833C4.13333 15.5083 4.71666 16.4583 5.76666 17.1583C6.93333 17.9417 8.46666 18.3333 10 18.3333C11.5333 18.3333 13.0667 17.9417 14.2333 17.1583C15.2833 16.45 15.8667 15.5 15.8667 14.4667C15.8583 13.4417 15.2833 12.4917 14.2333 11.7917Z" fill="currentColor"></path>
+    </svg>
+    </i>
+                    <input type="text" placeholder="Enter your name*" name="shb-contact-user-name" id="shbInputTextUserName" required="">
+                  </div>
+                  <p class="shb-section-contact-form-error-message">This Field is Required</p>
+                </div>
+  
+                <div class="shb-section-contact-form-column">
+                  <div class="shb-section-contact-form-form-control">
+                    <i data-icon="SHB_ICON_CN_MAIL" class="shb-section-contact-icon flex-center contain-image"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14.1667 2.91663H5.83334C3.33334 2.91663 1.66667 4.16663 1.66667 7.08329V12.9166C1.66667 15.8333 3.33334 17.0833 5.83334 17.0833H14.1667C16.6667 17.0833 18.3333 15.8333 18.3333 12.9166V7.08329C18.3333 4.16663 16.6667 2.91663 14.1667 2.91663ZM14.5583 7.99163L11.95 10.075C11.4 10.5166 10.7 10.7333 10 10.7333C9.3 10.7333 8.59167 10.5166 8.05 10.075L5.44167 7.99163C5.17501 7.77496 5.13334 7.37496 5.34167 7.10829C5.55834 6.84163 5.95001 6.79163 6.21667 7.00829L8.82501 9.09163C9.45834 9.59996 10.5333 9.59996 11.1667 9.09163L13.775 7.00829C14.0417 6.79163 14.4417 6.83329 14.65 7.10829C14.8667 7.37496 14.825 7.77496 14.5583 7.99163Z" fill="currentColor"></path>
+    </svg>
+    </i>
+                    <input type="email" placeholder="Email address*" name="shb-contact-user-mail" id="shbInputMailUser" required="">
+                  </div>
+                  <p class="shb-section-contact-form-error-message">Email is not valid</p>
+                </div>
+  
+                <div class="shb-section-contact-form-column">
+                  <div class="shb-section-contact-form-form-control">
+                    <i data-icon="SHB_ICON_CN_CALL" class="shb-section-contact-icon flex-center contain-image"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M18.3083 15.275C18.3083 15.575 18.2417 15.8833 18.1 16.1833C17.9583 16.4833 17.775 16.7666 17.5333 17.0333C17.125 17.4833 16.675 17.8083 16.1667 18.0166C15.6667 18.225 15.125 18.3333 14.5417 18.3333C13.6917 18.3333 12.7833 18.1333 11.825 17.725C10.8667 17.3166 9.90834 16.7666 8.95834 16.075C8.00001 15.375 7.09167 14.6 6.22501 13.7416C5.36667 12.875 4.59167 11.9666 3.90001 11.0166C3.21667 10.0666 2.66667 9.11663 2.26667 8.17496C1.86667 7.22496 1.66667 6.31663 1.66667 5.44996C1.66667 4.88329 1.76667 4.34163 1.96667 3.84163C2.16667 3.33329 2.48334 2.86663 2.92501 2.44996C3.45834 1.92496 4.04167 1.66663 4.65834 1.66663C4.89167 1.66663 5.12501 1.71663 5.33334 1.81663C5.55001 1.91663 5.74167 2.06663 5.89167 2.28329L7.82501 5.00829C7.97501 5.21663 8.08334 5.40829 8.15834 5.59163C8.23334 5.76663 8.27501 5.94163 8.27501 6.09996C8.27501 6.29996 8.21667 6.49996 8.10001 6.69163C7.99167 6.88329 7.83334 7.08329 7.63334 7.28329L7.00001 7.94163C6.90834 8.03329 6.86667 8.14163 6.86667 8.27496C6.86667 8.34163 6.87501 8.39996 6.89167 8.46663C6.91667 8.53329 6.94167 8.58329 6.95834 8.63329C7.10834 8.90829 7.36667 9.26663 7.73334 9.69996C8.10834 10.1333 8.50834 10.575 8.94167 11.0166C9.39167 11.4583 9.82501 11.8666 10.2667 12.2416C10.7 12.6083 11.0583 12.8583 11.3417 13.0083C11.3833 13.025 11.4333 13.05 11.4917 13.075C11.5583 13.1 11.625 13.1083 11.7 13.1083C11.8417 13.1083 11.95 13.0583 12.0417 12.9666L12.675 12.3416C12.8833 12.1333 13.0833 11.975 13.275 11.875C13.4667 11.7583 13.6583 11.7 13.8667 11.7C14.025 11.7 14.1917 11.7333 14.375 11.8083C14.5583 11.8833 14.75 11.9916 14.9583 12.1333L17.7167 14.0916C17.9333 14.2416 18.0833 14.4166 18.175 14.625C18.2583 14.8333 18.3083 15.0416 18.3083 15.275Z" fill="currentColor"></path>
+    </svg>
+    </i>
+                    <input type="text" placeholder="Enter mobile number*" name="shb-contact-number" id="shbInputNumber" required="">
+                  </div>
+                  <p class="shb-section-contact-form-error-message">Use only Numbers.</p>
+                </div>
+  
+                <div class="shb-section-contact-form-column">
+                  <div class="shb-section-contact-form-form-control">
+                    <i class="shb-section-contact-icon flex-center contain-image"></i>
+                    <textarea placeholder="What’s your project about?*" name="shb-contact-project-about " id="shbTextAreaAboutProject" class="vertical-scroll" required=""></textarea>
+                  </div>
+                  <p class="shb-section-contact-form-error-message">Just Display Errors</p>
+                </div>
+              </div>
+
+              <button type="submit" class="btn-primary btn-length-200 isHoverShineLight">Let’s Connect</button>
+
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- // _END >> MODAL << SHB // -->
 
   <!-- // _START >> REQUIRED SCRIPTS << SHB // -->
   <script src="assets/scripts/jquery-3.6.4.min.js"></script>

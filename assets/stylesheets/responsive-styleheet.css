@@ -51,6 +51,15 @@
   .shb-header-logo {
     width: 160px;
   }
+  .form-wrap > div {
+    padding: 30px;
+  }
+  .shb-section-contact-form-form-control input {
+    height: 54px;
+  }
+  .form-wrap .shb-section-contact-form-column:last-child {
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width:1799px) {
@@ -600,6 +609,29 @@
   .shb-header-logo {
     width: 145px;
   }
+  .modal-content{
+    max-width: max-content;
+    padding: 30px;
+    overflow: unset;
+    border-radius: 20px 0;
+  }
+  .form-wrap > div {
+    padding: 20px;
+  }
+  .modal-content::after,.auth-tcup{
+    display: none;
+  }
+  .form-wrap{
+    margin-left: 0;
+    border-radius: 20px;
+  }
+  .modal .close {
+    font-size: 36px;
+    width: 30px;
+    height: 30px;
+    right: -6px;
+    top: -35px;
+  }
 }
 
 @media only screen and (max-width:1023px) {
@@ -1094,6 +1126,12 @@
   .shb-expandable-card-item:nth-child(n + 5) {
     display: none;
   }
+  .form-wrap{
+    width: 100%;
+  }
+  .form-wrap h4{
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width:575px) {
@@ -1202,6 +1240,16 @@
   }
   .btn-length-200 {
     min-width: 140px;
+  }
+  .modal-content {
+    padding: 10px;
+    max-width: 95%;
+  }
+  .form-wrap h4 {
+    font-size: 16px;
+}
+  .shb-section-contact-form-column{
+    margin-bottom: 16px;
   }
 }
 
