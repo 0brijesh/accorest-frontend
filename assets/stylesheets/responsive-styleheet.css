@@ -49,7 +49,7 @@
   }
   
   .shb-header-logo {
-    width: 160px;
+    width: 200px;
   }
   .form-wrap > div {
     padding: 30px;
@@ -140,6 +140,9 @@
   }
   .shb-footer-contact-link-text, .shb-footer-social-link-text,.shb-footer-brand-text,.shb-industry-service-text{
     font-size: 14px;
+  }
+  .shb-section-provider-cover{
+    height: 400px;
   }
 }
 
