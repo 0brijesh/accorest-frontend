@@ -34,7 +34,7 @@
 <body>
 
   <!-- // _START >> HEADER << SHB // -->
-  <header class="shb-header ground-color-black">
+  <header class="shb-header ground-color-black d-none">
     <div class="container">
       <nav class="shb-header-body">
 
@@ -82,16 +82,19 @@
     </div>
   </header>
   <!-- // _CLOSE >> HEADER << SHB // -->
-
-
+  
+  
   <section class="shb-expandable-slider-wrapper">
-
+    <a href="index.html" class="cursor-pointer shb-expandable-toggle-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3V5H3V3H12ZM16 19V21H3V19H16ZM22 11V13H3V11H22Z"></path></svg>
+    </a>
     <div class="container">
 
-      <div class="shb-section-header-wrapper shb-section-success-header">
+      <div class="shb-section-header-wrapper shb-section-success-header d-none">
         <h2 class="shb-section-heading-title">Portfolio</h2>
-        <p class="shb-section-heading-data">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eos
-          recusandae accusantium, saepe accusamus.</p>
+      </div>
+      <div class="shb-header-logo contain-image flex-center">
+        <a href="index.html" class="line-height-0"><img src="./assets/images/logos/SHB_BRAND_LOGO.svg" class="header-logo-image" alt="brand-logo" /></a>
       </div>
 
       <div class="shb-expandable-container">
@@ -199,7 +202,7 @@
 
 
   <!-- // _START >> FOOTER << SHB // -->
-  <footer class="shb-footer">
+  <footer class="shb-footer d-none">
     <div class="container">
       <div class="shb-footer-row">
 

@@ -43,17 +43,14 @@
     padding: 75px 0;
   }
 
-  .shb-expandable-slider-wrapper {
-    padding: 25px 0 65px;
-    margin-top: 100px;
-  }
+
   
   .shb-header-logo {
     width: 200px;
   }
-  .form-wrap > div {
+  /* .form-wrap > div {
     padding: 30px;
-  }
+  } */
   .shb-section-contact-form-form-control input {
     height: 54px;
   }
@@ -101,7 +98,7 @@
   }
 
   .shb-section-technology-tab {
-    padding: 28px 24px;
+    padding: 20px 24px;
   }
 
   .shb-section-technology-tab-icon {
@@ -142,10 +139,21 @@
     font-size: 14px;
   }
   .shb-section-provider-cover{
+    height: 450px;
+  }
+  .shb-expandable-card-item{
     height: 400px;
   }
+  .shb-section-developing-process-step-button h4 {
+    margin-top: 90px;
+    font-size: 14px;
+  }
 }
-
+@media only screen and (max-width: 1599px){
+  .shb-section-technology-tab-title {
+    font-size: 14px;
+  }
+}
 @media only screen and (max-width:1439px) {
   .shb-section-hero {
     height: 680px;
@@ -183,7 +191,6 @@
 }
 
 @media only screen and (max-width:1365px) {
-
   .shb-header-nav-list-items {
     padding: 0 30px;
   }
@@ -618,9 +625,9 @@
     overflow: unset;
     border-radius: 20px 0;
   }
-  .form-wrap > div {
+  /* .form-wrap > div {
     padding: 20px;
-  }
+  } */
   .modal-content::after,.auth-tcup{
     display: none;
   }
@@ -803,7 +810,7 @@
   }
 
   .shb-section-developing-process-visuals {
-    margin-top: 40px;
+    margin-top: 80px;
   }
 
   .shb-section-developing-process-visuals-cover {
@@ -1135,6 +1142,10 @@
   .form-wrap h4{
     font-size: 18px;
   }
+  .shb-section-developing-process-step-button h4 {
+    margin-top: 85px;
+    font-size: 10px;
+  }
 }
 
 @media only screen and (max-width:575px) {
@@ -1235,9 +1246,6 @@
     display: none;
   }
 
-  .shb-expandable-slider-wrapper {
-    margin-top: 76px;
-  }
   .shb-section-service-card {
     padding: 30px 20px;
   }
@@ -1253,6 +1261,10 @@
 }
   .shb-section-contact-form-column{
     margin-bottom: 16px;
+  }
+  .shb-section-developing-process-step-button h4{
+    margin-top: 65px;
+    font-size: 10px;
   }
 }
 
@@ -1479,6 +1491,12 @@
   .shb-industry-service-item-card-content-wrapper {
     max-width: 100px;
     width: 100px;
+  }
+  .shb-section-developing-process-step-button h4{
+    display: none;
+  }
+  .shb-section-developing-process-visuals{
+    margin-top: 30px;
   }
 }
 @media only screen and (max-width:350px) {
