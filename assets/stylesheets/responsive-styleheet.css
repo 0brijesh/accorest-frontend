@@ -125,7 +125,9 @@
   .shb-section-contact-row {
     padding: 60px 60px 0 60px;
   }
-
+  .modal .shb-section-contact-row{
+    padding: 40px 40px 0 40px;
+  }
   .shb-section-vision-row {
     align-items: flex-end;
   }
@@ -635,12 +637,27 @@
     margin-left: 0;
     border-radius: 20px;
   }
-  .modal .close {
+  /* .modal .close {
     font-size: 36px;
     width: 30px;
     height: 30px;
     right: -6px;
     top: -35px;
+  } */
+  .modal .shb-section-contact-form-gradient{
+    margin: 0 auto 0;
+  }
+  .modal .form-wrap{
+    max-width: 600px;
+  }
+  .modal .shb-section-contact-content-header .btn-primary {
+    margin-top: 30px;
+  }
+  .modal .close {
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 20px;
   }
 }
 
@@ -1146,6 +1163,15 @@
     margin-top: 85px;
     font-size: 10px;
   }
+  .modal .shb-section-header-wrapper{
+    display: none;
+  }
+  .modal .shb-section-contact-row {
+    padding: 0px 20px 0 20px;
+  }
+  .modal .shb-section-contact-form-cover {
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width:575px) {
@@ -1265,6 +1291,19 @@
   .shb-section-developing-process-step-button h4{
     margin-top: 65px;
     font-size: 10px;
+  }
+  .modal .close {
+    right: 0px;
+    top: 0px;
+  }
+  .modal .shb-section-contact-form-cover h3 {
+    font-size: 16px;
+  }
+  .modal .shb-section-contact-form-cover {
+    padding: 15px 10px;
+  }
+  .modal .shb-section-contact-row {
+    padding: 0px 10px 0 10px;
   }
 }
 

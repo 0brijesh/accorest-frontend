@@ -2569,8 +2569,12 @@ footer.shb-footer {
   justify-content: center;
   transition: all 0.3s;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -20px;
+  top: 40px;
+}
+.modal .close svg{
+  width: 25px;
+  height: 25px;
 }
 .modal .close:hover,
 .modal .close:focus {
@@ -2593,4 +2597,29 @@ footer.shb-footer {
   background-color: var(--color-white);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+.modal .shb-section-contact-content:before{
+  width: 52%;
+}
+.modal .shb-section-contact-form-cover {
+  padding: 30px;
+}
+.modal .shb-section-contact-form-cover h3{
+  font-size: 18px;
+}
+.modal .shb-section-contact-form-gradient{
+  border-radius: 30px;
+}
 /* - // _CLOSE >> PRODUCTION BODY STYLES << SHB // - */
+.shb-expandable-item-name{
+  text-align: center;
+  margin-top: 100px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3;
+}
+.show_text_hover{
+  color: red;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3;
+}
