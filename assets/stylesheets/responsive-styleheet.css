@@ -150,6 +150,13 @@
     margin-top: 90px;
     font-size: 14px;
   }
+  .shb-expandable-item-name{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .shb-expandable-slider-wrapper{
+    padding: 50px 0 30px;
+  }
 }
 @media only screen and (max-width: 1599px){
   .shb-section-technology-tab-title {
@@ -658,6 +665,21 @@
     height: 30px;
     right: 10px;
     top: 20px;
+  }
+  .shb-expandable-toggle-icon svg{
+    width: 30px;
+  }
+  .shb-expandable-item-name{
+    font-size: 18px;
+  }
+  .shb-expandable-slider-wrapper {
+    padding: 20px 0;
+  }
+  .show_text_hover{
+    margin-top: 20px;
+  }
+  .shb-expandable-toggle-icon{
+    right: 30px;
   }
 }
 
@@ -1171,6 +1193,9 @@
   }
   .modal .shb-section-contact-form-cover {
     padding: 20px;
+  }
+  .shb-expandable-slider-wrapper .shb-header-logo {
+    margin: 0 auto 10px;
   }
 }
 
