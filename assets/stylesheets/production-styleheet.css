@@ -1775,6 +1775,7 @@ footer.shb-footer {
   margin-top: 110px;
   font-size: 16px;
   font-weight: 500;
+  text-align: center;
 }
 .shb-section-developing-process-step-ground {
   background: var(--color-gradient-01-opac-15);
@@ -2465,9 +2466,43 @@ footer.shb-footer {
   position: absolute;
   top: 25px;
   right: 50px;
+  transition: all 0.5s;
 }
 .shb-expandable-slider-wrapper .shb-header-logo{
   margin: 0 auto 30px;
+}
+.shb-expandable-toggle-icon span{
+  width: 40px;
+  height: 5px;
+  background-color: var(--color-black);
+  display: block;
+}
+.shb-expandable-toggle-icon span:not(:last-child){
+  margin-bottom: 5px;
+}
+.shb-expandable-toggle-icon > span{
+  transition: all 0.5s;
+}
+.shb-expandable-toggle-icon:hover span{
+  background-color: var(--select-back-color);
+}
+.shb-expandable-toggle-icon:hover .bar0{
+  transform: rotate(40deg);
+  position: relative;
+  top: 9px;
+  transition: all 0.5s;
+}
+.shb-expandable-toggle-icon:hover .bar1{
+  position: relative;
+  margin-left: -40px;
+  background-color: var(--color-black);
+  transition: all 0.5s;
+}
+.shb-expandable-toggle-icon:hover .bar2{
+  transform: rotate(-40deg);
+  position: relative;
+  top: -10px;
+  transition: all 0.5s;
 }
 /* -!! // _CLOSE >> PAGE: PORTFOLIO SIMPLE SLIDER STYLES << SHB // !!- */
 /* The Modal (background) */

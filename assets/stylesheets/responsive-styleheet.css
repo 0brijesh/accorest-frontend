@@ -147,7 +147,6 @@
     height: 400px;
   }
   .shb-section-developing-process-step-button h4 {
-    margin-top: 90px;
     font-size: 14px;
   }
   .shb-expandable-item-name{
@@ -272,7 +271,9 @@
     height: 85px;
     width: 85px;
   }
-
+  .shb-section-developing-process-step-button h4 {
+    margin-top: 95px;
+  }
   .shb-section-developing-process-step-button:not(:last-child)::after {
     width: 150%;
   }
@@ -314,7 +315,10 @@
   .shb-section-contact-content:before {
     width: 54%;
   }
-
+  .shb-swipe-prev, .shb-swipe-next {
+    width: 46px;
+    height: 46px;
+  }
 }
 
 @media only screen and (max-width:1199px) {
@@ -876,6 +880,9 @@
   .shb-expandable-card-item:nth-child(n + 6) {
     display: none;
   }
+  .shb-section-developing-process-step-button h4 {
+    margin-top: 85px;
+  }
 }
 
 @media only screen and (max-width:767px) {
@@ -936,7 +943,7 @@
   }
 
   .shb-tabs-vertical .shb-tabs .shb-tabs-index-number {
-    font-size: 36px;
+    font-size: 28px;
     margin: 0;
   }
 
@@ -1196,6 +1203,10 @@
   }
   .shb-expandable-slider-wrapper .shb-header-logo {
     margin: 0 auto 10px;
+  }
+  .shb-section-developing-process-step-button {
+    height: 65px;
+    width: 65px;
   }
 }
 
